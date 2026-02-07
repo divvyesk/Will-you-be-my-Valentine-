@@ -6,18 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "RoyalWedding";
-  src: url("/fonts/RoyalWedding.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-  
-
-.font-royal-wedding {
-  font-family: "Royal Wedding", cursive;
-}
-
 
 @layer base {
   :root {
