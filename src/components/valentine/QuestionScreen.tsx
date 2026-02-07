@@ -60,7 +60,7 @@ const QuestionScreen = ({ names, onYes }: QuestionScreenProps) => {
       <div className="z-10 flex flex-col items-center gap-4">
         {/* Persuasive text */}
         <p
-          className="text-lg sm:text-xl text-accent min-h-[1.8em] transition-all duration-500 font-medium"
+          className="font-adelia text-lg sm:text-xl text-accent min-h-[1.8em] transition-all duration-500 font-medium"
           key={evadeCount}
           style={{ animation: evadeCount > 0 ? "fade-in 0.4s ease-out" : "none" }}
         >

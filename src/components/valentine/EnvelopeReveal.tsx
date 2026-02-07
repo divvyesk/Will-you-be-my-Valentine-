@@ -94,7 +94,7 @@ const EnvelopeReveal = ({ onGoBack }: EnvelopeRevealProps) => {
                    px-10 py-12 shadow-2xl border border-primary/20 animate-scale-in"
       >
       
-      <p className="font-royal-wedding text-lg sm:text-xl text-card-foreground
+      <p className="font-adelia text-lg sm:text-xl text-card-foreground
              whitespace-pre-line text-center leading-loose tracking-wide">
 
             {typedText}
@@ -109,7 +109,7 @@ const EnvelopeReveal = ({ onGoBack }: EnvelopeRevealProps) => {
       {typedText.length >= LETTER_TEXT.length && (
         <button
           onClick={onGoBack}
-          className="font-royal-wedding mt-10 px-6 py-3 rounded-full bg-secondary/50 text-secondary-foreground
+          className="font-adelia mt-10 px-6 py-3 rounded-full bg-secondary/50 text-secondary-foreground
                      hover:bg-secondary/70 transition-all duration-300 animate-fade-in"
         >
           Go Back 💌
